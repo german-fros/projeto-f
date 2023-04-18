@@ -34,7 +34,7 @@ body {
 #msg {
     opacity: 0;
     background-color: rgb(247, 184, 255);
-    width: 360px;
+    width: 70vw;
     height: 30vh;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
