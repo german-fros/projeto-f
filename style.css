@@ -2,13 +2,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
     padding: 30px;
+    background: url('imagens/venus-back.jpg') no-repeat bottom center;
+    background-size: cover;
 }
 
-div {
+.msg {
+    display: none;
     background-color: rgb(247, 184, 255);
     width: 360px;
     height: 30vh;
@@ -16,4 +23,21 @@ div {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+#button {
+    position: absolute;
+    background-color: rgba(247, 184, 255, 0.399);
+    width: 120px;
+    height: 110px;
+    top: 51%;
+    left: 64%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#button p {
+    text-align: center;
+    margin-top: 45px;
+    font-weight: bolder;
 }
