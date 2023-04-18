@@ -14,17 +14,6 @@ body {
     background-size: cover;
 }
 
-.msg {
-    display: none;
-    background-color: rgb(247, 184, 255);
-    width: 360px;
-    height: 30vh;
-    margin: auto;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
 #button {
     position: absolute;
     background-color: rgba(247, 184, 255, 0.399);
@@ -40,4 +29,27 @@ body {
     text-align: center;
     margin-top: 45px;
     font-weight: bolder;
+}
+
+#msg {
+    opacity: 0;
+    background-color: rgb(247, 184, 255);
+    width: 360px;
+    height: 30vh;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#msg p {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
