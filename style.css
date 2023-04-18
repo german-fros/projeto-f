@@ -1,3 +1,5 @@
+/*<strong><input type="button" value="PERDONAR &#128151" id="si"></strong>*/
+
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +12,7 @@ body {
     width: 100vw;
     height: 100vh;
     padding: 30px;
-    background: url('imagens/venus-back.jpg') no-repeat bottom center;
+    background: black url('imagens/venus-back.jpg') no-repeat bottom center;
     background-size: cover;
 }
 
@@ -35,7 +37,7 @@ body {
     opacity: 0;
     background-color: rgba(247, 184, 255, 0.951);
     width: 80vw;
-    height: 40vh;
+    height: 34vh;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.329);
     border-radius: 10px;
@@ -53,3 +55,38 @@ h2 {
     margin-bottom: 15px;
     font-size: 20px;
 }
+
+#sorry {
+    position: relative;
+    top: 250px;
+    display: none;
+}
+
+#si{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.479);
+}
+
+#si {
+    height: 60px;
+    font-size: 30px;
+    width: 250px;
+    background-color: rgba(152, 60, 164, 0.951);
+    border: solid 3px rgb(0, 0, 0);
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* #no {
+    font-size: 20px;
+    height: 40px;
+    margin-top: 15px;
+    width: 200px;
+    background-color: rgb(68, 50, 86);
+    border: none;
+} */
